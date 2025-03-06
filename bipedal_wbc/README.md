@@ -67,12 +67,11 @@ where $\dot{\mathbf{v}}$ is the generalized acceleration, $\mathbf{F}_c$ is the 
 A task T can be defined as a set of linear equality and/or inequality constraints on the solution vector $\mathbf x$:
 
 $$
-\mathbf T: \left\{ 
-    \begin{aligned}
-        \mathbf A \mathbf x = \mathbf b \\
-        \mathbf D \mathbf x \leq \mathbf f
-    \end{aligned}
-    \right.
+\mathbf T:
+\begin{cases}
+\mathbf A \mathbf x = \mathbf b \\
+\mathbf D \mathbf x \leq \mathbf f
+\end{cases}
 $$
 
 ### Equality constraints
